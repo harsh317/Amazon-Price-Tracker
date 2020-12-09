@@ -46,13 +46,13 @@ def send_mail(body_main,subject_mail):
     server.ehlo()
     server.starttls()
     server.ehlo()
-    server.login('jainharsh3716@gmail.com','SUNnny7070')
+    server.login('abcd@gmail.com','mygmailpassword')
     subject = subject_mail
     body = body_main
     msg = f"Subject: {subject}\n\n{body}"
     server.sendmail(
-        'jainharsh3716@gmail.com',
-        'jainharsh3716@gmail.com',
+        'abcdto@gmail.com',
+        'abcdfrom@gmail.com',
         msg
     )
     now = datetime.now()
