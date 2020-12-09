@@ -1,4 +1,4 @@
-# Amazon-Price-Tracker
+# Amazon-Price-Tracker 
 ## Usage
 - git clone https://github.com/harsh317/Amazon-Price-Tracker.git
 - Python3 Main.py
@@ -11,6 +11,6 @@
 - Use it with Flask
 - Use it in a Excel
 - ETC.....
-### Apply Brain!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!11
+### Apply Brain!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!Its a rather simple code
 
 
