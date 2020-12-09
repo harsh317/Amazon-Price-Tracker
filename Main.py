@@ -15,7 +15,9 @@ def check_price():
 
     title = soup.find(id="productTitle").get_text()
     f = soup.find(id="priceblock_ourprice").get_text()
+    rating = soup.find('span', attrs={'class':'a-icon-alt'}).get_text()
     available = soup.find(id="availability").get_text().strip()
+    
     if available != "In stock.":
         print("Stock is not available!!")
         send_mail("Soory Product is Sold Out!!!Now Cry","Sold out")
@@ -28,6 +30,7 @@ def check_price():
     print("Product price was:",converted_price)
     print("The product name was:",title.strip())
     print("The product is ", available)
+    print("Product rating is :",rating)
     try:
         minimum = int(input("Tell the Minimum price you want the product to come down:"))
         print("please enter amount that is low to the actual ammont")
